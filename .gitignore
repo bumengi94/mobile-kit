@@ -4,5 +4,7 @@ build
 Pods
 *.xcworkspace
 xcuserdata
+.gradle
 
 .DS_Store
+local.properties
