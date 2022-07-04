@@ -11,7 +11,6 @@
 		13658F162872B878006E66F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13658F112872B878006E66F6 /* main.m */; };
 		13658F172872B878006E66F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13658F122872B878006E66F6 /* Images.xcassets */; };
 		13658F182872B878006E66F6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13658F132872B878006E66F6 /* AppDelegate.mm */; };
-		13658F192872B878006E66F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13658F142872B878006E66F6 /* Info.plist */; };
 		5AF2B88F55ED6A93D7CF7D6B /* libPods-mobile-kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 929373202DD76FA65F1168A2 /* libPods-mobile-kit.a */; };
 /* End PBXBuildFile section */
 
@@ -174,7 +173,6 @@
 			files = (
 				13658F152872B878006E66F6 /* LaunchScreen.storyboard in Resources */,
 				13658F172872B878006E66F6 /* Images.xcassets in Resources */,
-				13658F192872B878006E66F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
