@@ -1,0 +1,12 @@
+{
+	"name": "mobile-kit",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "Buğra Mengi <bumengi94@gmail.com>",
+	"repository": "git@github.com:bumengi94/mobile-kit.git",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-native": "^0.69.1"
+	}
+}
