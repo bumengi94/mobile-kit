@@ -6,15 +6,23 @@
 	"author": "Buğra Mengi <bumengi94@gmail.com>",
 	"repository": "git@github.com:bumengi94/mobile-kit.git",
 	"scripts": {
-		"dev": "react-native start"
+		"dev": "react-native start",
+		"ios:pod": "cd ios && pod install",
+		"ios": "react-native run-ios"
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.8.3",
+		"axios": "^0.27.2",
+		"i18next": "^21.8.12",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.3",
 		"react": "^18.2.0",
+		"react-i18next": "^11.17.4",
 		"react-native": "^0.69.1",
 		"react-redux": "^8.0.2",
 		"redux": "^4.2.0",
-		"redux-saga": "^1.1.3"
+		"redux-saga": "^1.1.3",
+		"rxjs": "^7.5.5"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.14",
