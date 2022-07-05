@@ -1,6 +1,6 @@
 import React, { FC, lazy, StrictMode, Suspense } from "react";
 import { Provider } from "react-redux";
-import { store } from "./store";
+import { store } from "./redux";
 import { Loading } from "./components";
 
 const Test = lazy(() => import("./components/Test"));

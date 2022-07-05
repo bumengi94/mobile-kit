@@ -1,7 +1,7 @@
 import React, { FC, memo } from "react";
 import { Pressable, SafeAreaView, Text } from "react-native";
-import { useAppDispatch, useAppSelector } from "../utils/hooks";
-import { setLoading } from "../store/appSlice";
+import { useAppDispatch, useAppSelector } from "../utils";
+import { setLoading } from "../redux";
 
 const Test: FC = () => {
 	const loading = useAppSelector((state) => state.app.loading);
