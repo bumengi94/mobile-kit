@@ -1,7 +1,7 @@
 {
 	"name": "mobile-kit",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "index.ts",
 	"license": "MIT",
 	"author": "Buğra Mengi <bumengi94@gmail.com>",
 	"repository": "git@github.com:bumengi94/mobile-kit.git",
@@ -9,8 +9,11 @@
 		"dev": "react-native start"
 	},
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.8.3",
 		"react": "^18.2.0",
-		"react-native": "^0.69.1"
+		"react-native": "^0.69.1",
+		"react-redux": "^8.0.2",
+		"redux": "^4.2.0"
 	},
 	"devDependencies": {
 		"@types/react": "^18.0.14",
