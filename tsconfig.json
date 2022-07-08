@@ -2,6 +2,18 @@
 	"compilerOptions": {
 		"esModuleInterop": true,
 		"jsx": "react-native",
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"paths": {
+			"#components": ["./src/components"],
+			"#components/*": ["./src/components/*"],
+			"#languages": ["./src/languages"],
+			"#languages/*": ["./src/languages/*"],
+			"#routers": ["./src/routers"],
+			"#routers/*": ["./src/routers/*"],
+			"#redux": ["./src/redux"],
+			"#redux/*": ["./src/redux/*"],
+			"#utils": ["./src/utils"],
+			"#utils/*": ["./src/utils/*"]
+		}
 	}
 }

@@ -1,6 +1,6 @@
 import { all, call, fork, put, takeLatest } from "redux-saga/effects";
-import { loadingAPI } from "./api";
 import { AnyAction } from "redux";
+import { loadingAPI } from "./api";
 import { setLoading, setLoadingFail, setLoadingSuccess } from "./action";
 
 export function* appSaga() {

@@ -1,7 +1,7 @@
 import React, { FC, lazy } from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-const Test = lazy(() => import("../components/Test"));
+const Test = lazy(() => import("#components/Test"));
 
 const { Navigator, Screen } = createStackNavigator();
 

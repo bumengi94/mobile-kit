@@ -1,10 +1,10 @@
 import React, { FC, lazy, Suspense } from "react";
 import { Provider } from "react-redux";
-import { store } from "./redux";
-import { Loading } from "./components";
 import { NavigationContainer } from "@react-navigation/native";
+import { store } from "#redux";
+import { Loading } from "#components";
 
-const MainRouter = lazy(() => import("./routers"));
+const MainRouter = lazy(() => import("#routers"));
 
 const App: FC = () => {
 	return (
