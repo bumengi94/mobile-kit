@@ -1,5 +1,3 @@
-import org.apache.tools.ant.taskdefs.condition.Os
-
 buildscript {
     ext {
         buildToolsVersion = "31.0.0"

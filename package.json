@@ -8,9 +8,16 @@
 	"scripts": {
 		"dev": "react-native start",
 		"ios:pod": "cd ios && pod install",
-		"ios": "react-native run-ios"
+		"ios": "react-native run-ios",
+		"android": "react-native run-android"
 	},
 	"dependencies": {
+		"@react-native-masked-view/masked-view": "^0.2.6",
+		"@react-navigation/bottom-tabs": "^6.3.2",
+		"@react-navigation/drawer": "^6.4.3",
+		"@react-navigation/native": "^6.0.11",
+		"@react-navigation/native-stack": "^6.7.0",
+		"@react-navigation/stack": "^6.2.2",
 		"@reduxjs/toolkit": "^1.8.3",
 		"axios": "^0.27.2",
 		"i18next": "^21.8.12",
@@ -19,6 +26,10 @@
 		"react": "^18.2.0",
 		"react-i18next": "^11.17.4",
 		"react-native": "^0.69.1",
+		"react-native-gesture-handler": "^2.5.0",
+		"react-native-reanimated": "^2.9.1",
+		"react-native-safe-area-context": "^4.3.1",
+		"react-native-screens": "^3.15.0",
 		"react-redux": "^8.0.2",
 		"redux": "^4.2.0",
 		"redux-saga": "^1.1.3",

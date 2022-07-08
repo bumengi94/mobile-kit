@@ -1,4 +1,4 @@
-import { createAction, createSlice, SliceCaseReducers } from "@reduxjs/toolkit";
+import { createSlice, SliceCaseReducers } from "@reduxjs/toolkit";
 
 interface AppState {
 	loading: boolean;
@@ -10,14 +10,10 @@ const slice = createSlice<AppState, SliceCaseReducers<AppState>, string>({
 		loading: false,
 	},
 	reducers: {
-		setLoadingSuccess: (state, { payload }) => {
+		SET_LOADING_SUCCESS: (state, { payload }) => {
 			state.loading = payload;
 		},
 	},
 });
-
-export const { setLoadingSuccess } = slice.actions;
-
-export const setLoading = createAction<boolean>("setLoading");
 
 export default slice.reducer;
