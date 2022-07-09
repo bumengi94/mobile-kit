@@ -3,6 +3,7 @@
     package="com.bumengi94">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:name="com.bumengi94.MainApplication"
