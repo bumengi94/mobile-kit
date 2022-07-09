@@ -7,22 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13658F152872B878006E66F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13658F0F2872B878006E66F6 /* LaunchScreen.storyboard */; };
 		13658F162872B878006E66F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13658F112872B878006E66F6 /* main.m */; };
 		13658F172872B878006E66F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13658F122872B878006E66F6 /* Images.xcassets */; };
 		13658F182872B878006E66F6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13658F132872B878006E66F6 /* AppDelegate.mm */; };
+		13ABB4902879885E008F40D9 /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = 13ABB48F2879885E008F40D9 /* launch.json */; };
+		13D61ADC28797B9100C07ABE /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D61ADB28797B9100C07ABE /* Dynamic.swift */; };
+		13D61AE02879862500C07ABE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D61ADF2879862500C07ABE /* Launch Screen.storyboard */; };
 		5AF2B88F55ED6A93D7CF7D6B /* libPods-mobile-kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 929373202DD76FA65F1168A2 /* libPods-mobile-kit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02014821231261B0C6E62EC6 /* Pods-mobile-kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile-kit.debug.xcconfig"; path = "Target Support Files/Pods-mobile-kit/Pods-mobile-kit.debug.xcconfig"; sourceTree = "<group>"; };
-		13658F0F2872B878006E66F6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13658F102872B878006E66F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13658F112872B878006E66F6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13658F122872B878006E66F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13658F132872B878006E66F6 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		13658F142872B878006E66F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ABB48F2879885E008F40D9 /* launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = launch.json; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mobile-kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobile-kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D61ADA28797B9000C07ABE /* mobile-kit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mobile-kit-Bridging-Header.h"; sourceTree = "<group>"; };
+		13D61ADB28797B9100C07ABE /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		13D61ADF2879862500C07ABE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-HelloWorld-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,12 +53,15 @@
 		13658F0E2872B878006E66F6 /* mobile-kit */ = {
 			isa = PBXGroup;
 			children = (
-				13658F0F2872B878006E66F6 /* LaunchScreen.storyboard */,
 				13658F102872B878006E66F6 /* AppDelegate.h */,
-				13658F112872B878006E66F6 /* main.m */,
-				13658F122872B878006E66F6 /* Images.xcassets */,
 				13658F132872B878006E66F6 /* AppDelegate.mm */,
+				13D61ADB28797B9100C07ABE /* Dynamic.swift */,
+				13658F122872B878006E66F6 /* Images.xcassets */,
 				13658F142872B878006E66F6 /* Info.plist */,
+				13D61ADF2879862500C07ABE /* Launch Screen.storyboard */,
+				13ABB48F2879885E008F40D9 /* launch.json */,
+				13658F112872B878006E66F6 /* main.m */,
+				13D61ADA28797B9000C07ABE /* mobile-kit-Bridging-Header.h */,
 			);
 			path = "mobile-kit";
 			sourceTree = "<group>";
@@ -144,7 +152,7 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -171,7 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13658F152872B878006E66F6 /* LaunchScreen.storyboard in Resources */,
+				13D61AE02879862500C07ABE /* Launch Screen.storyboard in Resources */,
+				13ABB4902879885E008F40D9 /* launch.json in Resources */,
 				13658F172872B878006E66F6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D61ADC28797B9100C07ABE /* Dynamic.swift in Sources */,
 				13658F182872B878006E66F6 /* AppDelegate.mm in Sources */,
 				13658F162872B878006E66F6 /* main.m in Sources */,
 			);
@@ -306,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bumengi94;
 				PRODUCT_NAME = "mobile-kit";
+				SWIFT_OBJC_BRIDGING_HEADER = "mobile-kit/mobile-kit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -332,6 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bumengi94;
 				PRODUCT_NAME = "mobile-kit";
+				SWIFT_OBJC_BRIDGING_HEADER = "mobile-kit/mobile-kit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
