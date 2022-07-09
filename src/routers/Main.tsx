@@ -7,7 +7,7 @@ const { Navigator, Screen } = createStackNavigator();
 
 const MainRouter: FC = () => {
 	return (
-		<Navigator screenOptions={{}}>
+		<Navigator>
 			<Screen name={"Test"} component={Test} />
 		</Navigator>
 	);
